@@ -28,10 +28,20 @@ def run_tests():
     song_collection.sort("year")
     print(song_collection)
     # TODO: Add more sorting tests
+    # Test sorting songs by artist
+    print("Test sorting - artist:")
+    song_collection.sort("artist")
+    print(song_collection)
+
+    # Test sorting songs by title
+    print("Test sorting - title:")
+    song_collection.sort("title")
+    print(song_collection)
 
     # TODO: Test saving songs (check file manually to see results)
-
-    # TODO: Add more tests, as appropriate, for each method
-
+    # Test saving songs
+    print("Test saving songs:")
+    song_collection.save_songs('songs.json')
+    # Manual check: Open 'songs.json' to see if the results are as expected
 
 run_tests()
