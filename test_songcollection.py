@@ -3,6 +3,8 @@ from song import Song
 from songcollection import SongCollection
 
 
+
+
 def run_tests():
     """Test SongCollection class."""
 
@@ -42,6 +44,6 @@ def run_tests():
     # Test saving songs
     print("Test saving songs:")
     song_collection.save_songs('songs.json')
-    # Manual check: Open 'songs.json' to see if the results are as expected
+    # Manual check: Open 'songs.json' to see if the result are as expected.
 
 run_tests()
