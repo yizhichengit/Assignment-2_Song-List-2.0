@@ -24,5 +24,11 @@ class Song:
         """Mark the song as unlearned."""
         self.is_learned = False
 
-
-
+    def to_dict(self):
+        """Convert the Song object to a dictionary."""
+        return {
+            'title': self.title,
+            'artist': self.artist,
+            'year': self.year,
+            'is_learned': self.is_learned
+        }
