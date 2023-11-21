@@ -53,4 +53,4 @@ A Python project with GUI and Console programs that (re)use classes to manage a 
 
 ## 8. Briefly describe your experience using classes and if/how they improved your code.
 
-...
+...Using classes (the foundation of object-oriented programming) in programming can improve the organization and reusability of code. Classes allow for encapsulating relevant data and functionality together, making the code more modular, easy to understand, and maintain. For example, in the Kivy application project, classes can represent songs ('Song ') and song collections ('SongCollection'), and each class encapsulates relevant data and operations. This not only makes the code clearer, but also facilitates the extension and reuse of functions.
