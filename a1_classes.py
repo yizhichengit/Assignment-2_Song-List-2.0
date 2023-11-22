@@ -6,7 +6,7 @@ adding, and marking songs as learned. The songs are stored in a JSON file.
 and Very good use of song class and songcollection class.
 
 Name: Yizhi Chen
-Date started: 21/10/2023
+Date started: 22/11/2023
 GitHub URL: https://github.com/yizhichengit/Assignment-2_Song-List-2.0/blob/master/a1_classes.py
 """
 
